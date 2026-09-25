@@ -112,28 +112,14 @@ Complete install (recommended) - includes GTK4, Flatpak, and dock fixes
 | `--dock [TYPE]` | | Dock theme (transparent/solid) |
 | `--wallpapers` | `-w` | Install wallpapers |
 
-## 📚 Documentation
-
-📖 **[Full Documentation Wiki](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki)** — Comprehensive guides and troubleshooting
-
-- 📘 **[Installation Guide](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki/Installation-Guide)** — Detailed setup instructions
-- 🔧 **[Troubleshooting](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki/Troubleshooting)** — Common issues and solutions
-- 🎨 **[Color Palette](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki/Color-Palette)** — Nord color reference
-- ⚙️ **[Customization](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki/Customization)** — Personalize the theme
-- 🤝 **[Contributing](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki/Contributing)** — How to contribute
-
 ## 🔧 Quick Fixes
 
 - 💡 **GTK4 apps not themed?** `./install.sh -l` then log out and back in
 - 💡 **Flatpak apps not themed?** `./install.sh -f` then restart Flatpak apps
 - 💡 **Dock not styled?** `./install.sh --dock transparent` or `--dock solid`
 
-🤝 Contributing
-
-Contributions welcome! See the [Contributing Guide](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki/Contributing) for guidelines.
-
-- 🐛 [Report bugs](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/issues)
-- ✨ [Suggest features](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/discussions)
+- 🐛 [Report bugs](https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/issues)
+- ✨ [Suggest features](https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/discussions)
 - 📝 Improve documentation
 
 ## 🙏 Credits
@@ -143,20 +129,8 @@ Contributions welcome! See the [Contributing Guide](https://github.com/PhantomNi
 
 ## 📄 License
 
-⚖️ GPL-3.0 License — see [LICENSE](https://github.com/PhantomNimbi/Hentai-Senpai-Multi-DE-Theme/blob/main/LICENSE) file for details.
+⚖️ GPL-3.0 License — see [LICENSE](https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/blob/main/LICENSE) file for details.
 
 ---
 
-<p align="center">
-  <strong>Share this theme:</strong><br>
-  <a href="https://twitter.com/intent/tweet?text=🎨%20Hentai-Senpai%20GTK%20Theme%20-%20A%20beautiful%20dark%20theme%20with%20Nord%20colors&url=https%3A%2F%2Fgithub.com%2FPhantomNimbi%2FHentai-Senpai-GTK-Theme"><img src="https://img.shields.io/badge/Share-X-000000?style=plastic&logo=x" alt="Share on X"></a>
-  <a href="https://reddit.com/submit?title=Hentai-Senpai%20GTK%20Theme&url=https%3A%2F%2Fgithub.com%2FPhantomNimbi%2FHentai-Senpai-GTK-Theme"><img src="https://img.shields.io/badge/Share-Reddit-FF4500?style=plastic&logo=reddit" alt="Share on Reddit"></a>
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FPhantomNimbi%2FHentai-Senpai-GTK-Theme"><img src="https://img.shields.io/badge/Share-Facebook-1877F2?style=plastic&logo=facebook" alt="Share on Facebook"></a>
-  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FPhantomNimbi%2FHentai-Senpai-GTK-Theme"><img src="https://img.shields.io/badge/Share-LinkedIn-0A66C2?style=plastic&logo=linkedin" alt="Share on LinkedIn"></a>
-  <a href="https://mastodonshare.com/?text=Hentai-Senpai%20GTK%20Theme&url=https%3A%2F%2Fgithub.com%2FPhantomNimbi%2FHentai-Senpai-GTK-Theme"><img src="https://img.shields.io/badge/Share-Mastodon-6364FF?style=plastic&logo=mastodon" alt="Share on Mastodon"></a>
-  <a href="https://t.me/share/url?text=Hentai-Senpai%20GTK%20Theme&url=https%3A%2F%2Fgithub.com%2FPhantomNimbi%2FHentai-Senpai-GTK-Theme"><img src="https://img.shields.io/badge/Share-Telegram-26A5E4?style=plastic&logo=telegram" alt="Share on Telegram"></a>
-</p>
-
 🎨 **Enjoy your new theme!**
-
-💬 For help, check the [documentation wiki](https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/wiki)
