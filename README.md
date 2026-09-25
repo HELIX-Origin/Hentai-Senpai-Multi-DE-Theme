@@ -22,14 +22,6 @@
 </pre>
 </div>
 
-<p align="center">
-  <a href="https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/releases"><img src="https://img.shields.io/github/v/release/PhantomNimbi/Hentai-Senpai-GTK-Theme?label=%F0%9F%93%A6%20Release&style=plastic&color=88C0D0" alt="Release"></a>
-  <a href="https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/blob/main/LICENSE"><img src="https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-GPL--3.0-88C0D0?style=plastic" alt="License GPL-3.0"></a>
-  <a href="https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/stargazers"><img src="https://img.shields.io/github/stars/PhantomNimbi/Hentai-Senpai-GTK-Theme?label=%E2%AD%90%20Stars&style=plastic&color=88C0D0" alt="Stars"></a>
-  <a href="https://github.com/PhantomNimbi/Hentai-Senpai-GTK-Theme/issues"><img src="https://img.shields.io/github/issues/PhantomNimbi/Hentai-Senpai-GTK-Theme?label=%F0%9F%90%9B%20Issues&style=plastic&color=88C0D0" alt="Issues"></a>
-  <a href="https://gtk.org"><img src="https://img.shields.io/badge/GTK-2%2F3%2F4-88C0D0?style=plastic&logo=gtk" alt="GTK"></a>
-</p>
-
 <h2 align="center">🐧 Supported Distributions</h2>
 
 <p align="center">
@@ -77,7 +69,7 @@
 
 Download the theme and CD into the root folder
 ```bash
-git clone https://github.com/PhantomNimbi/Hentai-Senpai-Multi-DE-Theme.git
+git clone https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme.git
 cd Hentai-Senpai-Multi-DE-Theme
 ```
 
