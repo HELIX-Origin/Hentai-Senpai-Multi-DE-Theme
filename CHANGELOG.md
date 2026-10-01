@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### ✨ Added
+
+- **GitHub Pages Project Site**
+  - New `site/` based on the vCard template, restyled with the Nord palette
+  - Served at `https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/` as a HELIX Origin subpage
+  - About, Gallery, Install and Wallpapers pages with deep links (`#install`, etc.)
+  - `pages.yml` workflow deploys `site/`, `images/` and `wallpapers/` via GitHub Actions
+
 ## [1.0.1] - 2026-05-04
 
 ### 📸 Updated

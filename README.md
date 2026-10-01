@@ -122,6 +122,24 @@ Complete install (recommended) - includes GTK4, Flatpak, and dock fixes
 - ✨ [Suggest features](https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/discussions)
 - 📝 Improve documentation
 
+## 🌐 Project Website
+
+The project page is published at
+[helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme](https://helix-origin.github.io/Hentai-Senpai-Multi-DE-Theme/)
+as a subpage of the [HELIX Origin](https://helix-origin.github.io/) site.
+
+- Source lives in `site/` and uses the
+  [vCard](https://github.com/codewithsadee/vcard-personal-portfolio) template (MIT, see `site/LICENSE`)
+- `.github/workflows/pages.yml` copies `site/`, `images/` and `wallpapers/` into one artifact and
+  deploys it on every push to `main` that touches them
+- One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+Preview locally:
+```bash
+mkdir -p /tmp/pages && cp -r site/. images wallpapers /tmp/pages/
+python3 -m http.server -d /tmp/pages 8000
+```
+
 ## 🙏 Credits
 
 - 🎨 Based on [Orchis Theme](https://github.com/vinceliuice/Orchis-theme) by vinceliuice
