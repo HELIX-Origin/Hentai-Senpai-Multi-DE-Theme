@@ -1,6 +1,7 @@
 # Build artifacts
 *.css
 *.css.map
+!docs/assets/css/*.css
 src/gtk-3.0/gtk.css
 src/gtk-4.0/gtk.css
 
