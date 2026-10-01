@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Hentai-Senpai</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#434C5E"/>
+      <stop offset="1" stop-color="#2E3440"/>
+    </linearGradient>
+    <linearGradient id="frost" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FBCBB"/>
+      <stop offset="0.5" stop-color="#88C0D0"/>
+      <stop offset="1" stop-color="#81A1C1"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A3BE8C"/>
+      <stop offset="0.5" stop-color="#88C0D0"/>
+      <stop offset="1" stop-color="#B48EAD"/>
+    </linearGradient>
+    <mask id="crescent">
+      <rect width="256" height="256" fill="#fff"/>
+      <circle cx="150" cy="98" r="62" fill="#000"/>
+    </mask>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)" stroke="#4C566A" stroke-width="4"/>
+  <path d="M40 196 C 88 172, 168 220, 216 188" fill="none" stroke="url(#aurora)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="118" cy="122" r="70" fill="url(#frost)" mask="url(#crescent)"/>
+  <g fill="#ECEFF4">
+    <path d="M182 58 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5z"/>
+    <path d="M206 116 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" opacity="0.8"/>
+    <circle cx="164" cy="140" r="4" opacity="0.7"/>
+  </g>
+</svg>

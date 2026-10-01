@@ -6,6 +6,9 @@
   <meta name="description" content="Hentai-Senpai: a dark multi-desktop GTK theme based on Orchis with the Nord color palette. Part of HELIX Origin.">
   <meta name="theme-color" content="#2E3440">
   <title>Hentai-Senpai Multi-DE Theme | HELIX Origin</title>
+  <link rel="icon" href="./assets/images/icon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./assets/images/my-avatar.png">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/site.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +21,9 @@
     <!-- #SIDEBAR -->
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
-        <div class="avatar-box" aria-hidden="true">HS</div>
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Hentai-Senpai icon" width="80" height="80">
+        </figure>
         <div class="info-content">
           <h1 class="name" title="Hentai-Senpai">Hentai-Senpai</h1>
           <p class="title">Multi-DE GTK Theme</p>
@@ -79,6 +84,31 @@
           <li class="navbar-item"><a class="navbar-link" href="#gallery" data-nav-link="gallery">Gallery</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#install" data-nav-link="install">Install</a></li>
           <li class="navbar-item"><a class="navbar-link" href="#wallpapers" data-nav-link="wallpapers">Wallpapers</a></li>
+          <li class="navbar-item">
+            <div class="translate-control notranslate" translate="no">
+              <label for="translate-select">🌐 <span class="visually-hidden">Language</span></label>
+              <select id="translate-select" aria-label="Translate this page" disabled>
+                <option value="en" lang="en">English</option>
+                <option value="ja" lang="ja">日本語</option>
+                <option value="zh-CN" lang="zh-CN">简体中文</option>
+                <option value="zh-TW" lang="zh-TW">繁體中文</option>
+                <option value="ko" lang="ko">한국어</option>
+                <option value="es" lang="es">Español</option>
+                <option value="fr" lang="fr">Français</option>
+                <option value="de" lang="de">Deutsch</option>
+                <option value="ru" lang="ru">Русский</option>
+                <option value="pt" lang="pt">Português</option>
+                <option value="it" lang="it">Italiano</option>
+                <option value="th" lang="th">ไทย</option>
+                <option value="vi" lang="vi">Tiếng Việt</option>
+                <option value="id" lang="id">Bahasa Indonesia</option>
+                <option value="pl" lang="pl">Polski</option>
+                <option value="nl" lang="nl">Nederlands</option>
+                <option value="tr" lang="tr">Türkçe</option>
+                <option value="ar" lang="ar">العربية</option>
+              </select>
+            </div>
+          </li>
         </ul>
       </nav>
 
@@ -183,18 +213,18 @@
         <section class="projects">
           <ul class="project-list">
             <li class="project-item active">
-              <a href="./images/preview-1.png">
+              <a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/images/preview-1.png">
                 <figure class="project-img">
-                  <img src="./images/preview-1.png" alt="GTK applications using the Hentai-Senpai theme" loading="lazy">
+                  <img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/images/preview-1.png" alt="GTK applications using the Hentai-Senpai theme" loading="lazy">
                 </figure>
                 <h3 class="h3 project-title">Applications</h3>
                 <p class="project-category">GTK apps with the theme</p>
               </a>
             </li>
             <li class="project-item active">
-              <a href="./images/preview-2.png">
+              <a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/images/preview-2.png">
                 <figure class="project-img">
-                  <img src="./images/preview-2.png" alt="Full desktop using the Hentai-Senpai theme" loading="lazy">
+                  <img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/images/preview-2.png" alt="Full desktop using the Hentai-Senpai theme" loading="lazy">
                 </figure>
                 <h3 class="h3 project-title">Desktop</h3>
                 <p class="project-category">Full desktop experience</p>
@@ -297,12 +327,12 @@ cd Hentai-Senpai-Multi-DE-Theme</code></pre>
         <p class="site-note">Nord-inspired wallpapers bundled with the theme. Install them with <code>./install.sh -w</code>.</p>
         <section class="projects">
           <ul class="project-list">
-            <li class="project-item active"><a href="./wallpapers/001.png"><figure class="project-img"><img src="./wallpapers/001.png" alt="Wallpaper 001" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 001</h3></a></li>
-            <li class="project-item active"><a href="./wallpapers/002.png"><figure class="project-img"><img src="./wallpapers/002.png" alt="Wallpaper 002" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 002</h3></a></li>
-            <li class="project-item active"><a href="./wallpapers/003.png"><figure class="project-img"><img src="./wallpapers/003.png" alt="Wallpaper 003" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 003</h3></a></li>
-            <li class="project-item active"><a href="./wallpapers/004.png"><figure class="project-img"><img src="./wallpapers/004.png" alt="Wallpaper 004" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 004</h3></a></li>
-            <li class="project-item active"><a href="./wallpapers/005.png"><figure class="project-img"><img src="./wallpapers/005.png" alt="Wallpaper 005" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 005</h3></a></li>
-            <li class="project-item active"><a href="./wallpapers/006.png"><figure class="project-img"><img src="./wallpapers/006.png" alt="Wallpaper 006" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 006</h3></a></li>
+            <li class="project-item active"><a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/001.png"><figure class="project-img"><img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/001.png" alt="Wallpaper 001" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 001</h3></a></li>
+            <li class="project-item active"><a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/002.png"><figure class="project-img"><img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/002.png" alt="Wallpaper 002" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 002</h3></a></li>
+            <li class="project-item active"><a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/003.png"><figure class="project-img"><img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/003.png" alt="Wallpaper 003" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 003</h3></a></li>
+            <li class="project-item active"><a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/004.png"><figure class="project-img"><img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/004.png" alt="Wallpaper 004" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 004</h3></a></li>
+            <li class="project-item active"><a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/005.png"><figure class="project-img"><img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/005.png" alt="Wallpaper 005" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 005</h3></a></li>
+            <li class="project-item active"><a href="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/006.png"><figure class="project-img"><img src="https://raw.githubusercontent.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/main/wallpapers/006.png" alt="Wallpaper 006" loading="lazy"></figure><h3 class="h3 project-title">Wallpaper 006</h3></a></li>
           </ul>
         </section>
       </article>
@@ -319,5 +349,6 @@ cd Hentai-Senpai-Multi-DE-Theme</code></pre>
   </main>
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/translate.js"></script>
 </body>
 </html>

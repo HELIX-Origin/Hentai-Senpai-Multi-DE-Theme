@@ -1,7 +1,7 @@
 # Build artifacts
 *.css
 *.css.map
-!site/assets/css/*.css
+!docs/assets/css/*.css
 src/gtk-3.0/gtk.css
 src/gtk-4.0/gtk.css
 
@@ -63,6 +63,3 @@ __pycache__/
 # Documentation build artifacts
 docs/_build/
 *.html.pdf
-
-# GitHub Pages build output
-_site/

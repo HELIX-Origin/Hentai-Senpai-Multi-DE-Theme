@@ -54,17 +54,9 @@
   #SIDEBAR
 \*-----------------------------------*/
 
-.avatar-box {
-  display: grid;
-  place-items: center;
-  flex: none;
-  width: 80px;
-  height: 80px;
-  color: var(--orange-yellow-crayola);
-  font-size: 32px;
-  font-weight: var(--fw-600);
-  letter-spacing: 0.05em;
-}
+.avatar-box { flex: none; }
+
+.avatar-box img { display: block; height: auto; }
 
 .info_more-btn span { color: var(--orange-yellow-crayola); }
 
@@ -227,20 +219,62 @@
   color: var(--orange-yellow-crayola);
 }
 
-@media (min-width: 580px) {
-  .avatar-box {
-    width: 120px;
-    height: 120px;
-    font-size: 48px;
-  }
+/*-----------------------------------*\
+  #TRANSLATE
+\*-----------------------------------*/
+
+.translate-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 7px;
+  font-size: var(--fs-8);
+}
+
+.translate-control select {
+  background: var(--eerie-black-1);
+  color: var(--light-gray);
+  border: 1px solid var(--jet);
+  border-radius: 8px;
+  padding: 4px 8px;
+  font: inherit;
+  cursor: pointer;
+}
+
+.translate-control select:focus-visible {
+  outline: 2px solid var(--orange-yellow-crayola);
+  outline-offset: 2px;
+}
+
+.translate-control select:disabled {
+  cursor: progress;
+  opacity: 0.6;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* hide the Google Translate banner and tooltips */
+body { top: 0 !important; }
+
+body > .skiptranslate,
+.goog-te-banner-frame,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
 }
 
 @media (min-width: 1250px) {
-  .avatar-box {
-    width: 150px;
-    height: 150px;
-    font-size: 56px;
-  }
-
   .sidebar.active { max-height: none; }
 }
