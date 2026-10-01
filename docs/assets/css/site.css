@@ -3,51 +3,51 @@
   Hentai-Senpai overrides for the vCard template (style.css)
 \*-----------------------------------*/
 
-/* Nord palette mapped onto the vCard custom properties */
+/* HELIX Origin palette mapped onto the vCard custom properties */
 :root {
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
-    #434C5E 3%,
-    #3B4252 97%
+    #19324B 3%,
+    #0D1A2D 97%
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right,
-    rgba(59, 66, 82, 0.251) 0%,
-    rgba(46, 52, 64, 0) 100%
-  ), #2E3440;
+    rgba(19, 41, 67, 0.251) 0%,
+    rgba(8, 20, 38, 0) 100%
+  ), #081426;
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    #88C0D0 0%,
-    rgba(136, 192, 208, 0) 50%
+    #48D8F2 0%,
+    rgba(72, 216, 242, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg,
-    rgba(136, 192, 208, 0.251) 0%,
-    rgba(136, 192, 208, 0) 59.86%
-  ), #2E3440;
+    rgba(72, 216, 242, 0.251) 0%,
+    rgba(72, 216, 242, 0) 59.86%
+  ), #081426;
   --border-gradient-onyx: linear-gradient(
     to bottom right,
-    #4C566A 0%,
-    rgba(76, 86, 106, 0) 50%
+    #315073 0%,
+    rgba(49, 80, 115, 0) 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right,
-    #8FBCBB,
-    #88C0D0
+    #B06CFF,
+    #48D8F2
   );
 
-  --jet: #4C566A;
-  --onyx: #3B4252;
-  --eerie-black-1: #2E3440;
-  --eerie-black-2: #2E3440;
-  --smoky-black: #242933;
-  --white-1: #ECEFF4;
-  --white-2: #E5E9F0;
-  --orange-yellow-crayola: #88C0D0;
-  --vegas-gold: #81A1C1;
-  --light-gray: #D8DEE9;
-  --light-gray-70: rgba(216, 222, 233, 0.7);
-  --bittersweet-shimmer: #BF616A;
+  --jet: #263F5D;
+  --onyx: #11243C;
+  --eerie-black-1: #0C1B30;
+  --eerie-black-2: #091628;
+  --smoky-black: #06101E;
+  --white-1: #F1F6FF;
+  --white-2: #DFEAFA;
+  --orange-yellow-crayola: #48D8F2;
+  --vegas-gold: #B06CFF;
+  --light-gray: #C4D2E5;
+  --light-gray-70: rgba(196, 210, 229, 0.7);
+  --bittersweet-shimmer: #FF7188;
 }
 
 /*-----------------------------------*\
