@@ -56,7 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Installation Script** (`install.sh`) with comprehensive options
 - **Theme Application Script** (`scripts/apply.sh`) for automatic activation
 - **Transparent Plank Dock Theme** with Nord color integration
-- **Wallpaper Collection** of minimalistic wallpapers featuring various anime ecchi characters
+- **Wallpaper Collection** of minimalistic Hentai Senpai wallpapers, each featuring a different ecchi anime character
 - **GitHub Issue Templates** for bug reports, feature requests, and questions
 - **Contributing Guidelines** with development setup and code style guidelines
 - **Multi-language Documentation** in 9 languages (EN, JA, ES, FR, DE, IT, ZH, KO, RU, PT)
