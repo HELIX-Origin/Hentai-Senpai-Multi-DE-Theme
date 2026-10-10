@@ -147,7 +147,7 @@ python3 -m http.server -d docs 8000
 
 ## 📄 License
 
-⚖️ GPL-3.0 License — see [LICENSE](https://github.com/HELIX-Origin/Hentai-Senpai-Multi-DE-Theme/blob/main/LICENSE) file for details.
+⚖️ BSD-3-Clause License — see [`LICENSE`](LICENSE.md) file for details.
 
 ---
 
