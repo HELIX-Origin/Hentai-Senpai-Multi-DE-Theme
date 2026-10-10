@@ -10,6 +10,8 @@ url: "https://helix-origin.github.io"
 baseurl: "/Hentai-Senpai-Multi-DE-Theme"
 repository: "HELIX-Origin/Hentai-Senpai-Multi-DE-Theme"
 github_username: "HELIX-Origin"
+logo: "assets/images/icon.svg"
+favicon: "assets/images/icon.ico"
 
 author:
   name: "HELIX Origin"
