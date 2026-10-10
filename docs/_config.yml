@@ -1,0 +1,98 @@
+# ==============================================================================
+# Hentai-Senpai Multi-DE Theme - Jekyll Site Configuration
+# ==============================================================================
+
+title: Hentai-Senpai
+tagline: Multi-DE GTK Theme
+tagline_short: Multi-DE GTK Theme
+description: "A dark GTK theme built on Orchis with the Nord color palette — supporting GNOME, Cinnamon, XFCE, Budgie and MATE with a single installer."
+url: "https://helix-origin.github.io"
+baseurl: "/Hentai-Senpai-Multi-DE-Theme"
+repository: "HELIX-Origin/Hentai-Senpai-Multi-DE-Theme"
+github_username: "HELIX-Origin"
+logo: "/Hentai-Senpai-Multi-DE-Theme/assets/images/my-avatar.png"
+favicon: "/Hentai-Senpai-Multi-DE-Theme/assets/images/logo.ico"
+
+author:
+  name: "HELIX Origin"
+  url: "https://helix-origin.github.io"
+
+# Remote Theme Configuration
+remote_theme: HELIX-Origin/helix-docs
+
+encoding: "utf-8"
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  parse_block_html: true
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: true
+
+optional_front_matter:
+  remove_originals: true
+
+# Jekyll Collections Registration
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+# Build Inclusions & Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+include:
+  - assets
+
+# Frontmatter Cascade Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      comments: false
+      nav_order: 9999
+
+  - scope:
+      path: "index.md"
+    values:
+      layout: default
+      page_class: page--home
+
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: wiki
+      page_class: page--doc
+      section: docs
+
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      layout: wiki
+      page_class: page--wiki
+      section: wiki
